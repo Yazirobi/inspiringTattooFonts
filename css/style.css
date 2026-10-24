@@ -373,7 +373,7 @@ body {
 .font-parisienne {
     font-family: "Parisienne", cursive;
     word-spacing: -0.1em;
-    letter-spacing: -0.07em; 
+    letter-spacing: -0.03em; 
     font-weight: 400;
     font-style: normal;
     }
@@ -405,7 +405,7 @@ body {
 .font-sacramento {
     font-family: "Sacramento", cursive;
     word-spacing: -0.07em;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.02em;
     font-weight: 400;
     font-style: normal;
     }
@@ -413,7 +413,7 @@ body {
 .font-satisfy {
     font-family: "Satisfy", cursive;
     word-spacing: -0.03em;
-    letter-spacing: -0.02em; 
+    letter-spacing: -0.01em; 
     font-weight: 400;
     font-style: normal;
     }
@@ -427,7 +427,7 @@ body {
 .font-pacifico {
     font-family: "Pacifico", cursive;
     word-spacing: -0.12em;
-    letter-spacing: -0.1em; 
+    letter-spacing: -0.05em; 
     font-weight: 400;
     font-style: normal;
     }
@@ -441,7 +441,7 @@ body {
  .font-marckScript {
     font-family: "Marck Script", cursive;
     word-spacing: -0.16em;
-    letter-spacing: -0.13em; 
+    letter-spacing: -0.06em; 
     font-weight: 400;
     font-style: normal;
     }
