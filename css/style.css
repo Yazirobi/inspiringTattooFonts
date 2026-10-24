@@ -437,6 +437,7 @@ body {
 
  .font-marckScript {
     font-family: "Marck Script", cursive;
+    word-spacing: -0.15em;
     font-weight: 400;
     font-style: normal;
     }
