@@ -346,6 +346,7 @@ body {
     margin-right: -1em;
     line-height: 1.7;
     font-size: clamp(0.75rem, 0.71rem + 0.19vw, 0.875rem);
+    word-break: keep-all;
     color: #8fa89b;
     margin-bottom: 10px;
     opacity: 0.8;
