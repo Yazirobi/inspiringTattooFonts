@@ -331,10 +331,10 @@ body {
 .preview-dob-text {
     font-family: "Times New Roman", Times, serif;
     /* 1em -> 0.15em ~ 0.2em 수준으로 축소 (고급스러운 눈썹 텍스트 황금 비율) */
-    letter-spacing: 0.15em; 
+    letter-spacing: 0.2em; 
     
     /* 자간이 넓어지면 오른쪽 끝에 생기는 여백을 상쇄하여 가운데 정렬을 맞추는 팁 */
-    margin-right: -0.15em; 
+    margin-right: -0.2em; 
     
     line-height: 1.7;
     font-size: clamp(0.5rem, 1.2vw, 1.4rem);
