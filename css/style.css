@@ -328,8 +328,8 @@ body {
 
 .preview-flower-text {
     font-family: inherit;
-    letter-spacing: 1.1rem;
-    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     color: #8fa89b;
     margin-bottom: 10px;
     opacity: 0.8;
@@ -337,7 +337,7 @@ body {
 
 .preview-dob-text {
     font-family: "Times New Roman", Times, serif;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.25rem;
     margin-right: -1em;
     line-height: 1.7;
     font-size: clamp(0.75rem, 0.71rem + 0.19vw, 0.875rem);
