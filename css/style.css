@@ -278,9 +278,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
+    white-space: nowrap; /* 텍스트가 아래 줄로 떨어지는 것을 절대 방지 */
+    overflow-x: auto;  /* 가로 방향으로 넘치는 내용만 스크롤바 생성 */
+    overflow-y: hidden; /* 세로 스크롤은 숨김 */
     padding: 15px;
     color: #fff;
     position: relative;
@@ -288,7 +288,8 @@ body {
     transition: 
         background 0.6s cubic-bezier(0.25, 1, 0.5, 1),
         box-shadow 0.6s ease;
-    -webkit-overflow-scrolling: touch;
+    /* 모바일에서 부드러운 스크롤을 위한 옵션 */
+    -webkit-overflow-scrolling: touch; 
     }
 
 .tattoo-preview-box::before {
@@ -353,7 +354,7 @@ body {
 
 .preview-name-text {
     font-family: "robotoFlex", sans-serif;
-    font-size: clamp(2.25rem, 7vh, 2.875rem);
+    font-size: clamp(1.5rem, 1.016rem + 2.066vw, 2.875rem);
     color: #f1ebd9;
     text-align: center;
     line-height: 1.2;
