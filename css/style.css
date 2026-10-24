@@ -279,7 +279,7 @@ body {
     justify-content: center;
     align-items: center;
     white-space: nowrap; /* 텍스트가 아래 줄로 떨어지는 것을 절대 방지 */
-    overflow-x: auto;  /* 가로 방향으로 넘치는 내용만 스크롤바 생성 */
+    overflow-x: scroll;  /* 가로 방향으로 넘치는 내용만 스크롤바 생성 */
     overflow-y: hidden; /* 세로 스크롤은 숨김 */
     padding: 15px;
     color: #fff;
