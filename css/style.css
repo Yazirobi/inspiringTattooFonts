@@ -346,10 +346,6 @@ body {
 .preview-name-text {
     font-family: "robotoFlex", sans-serif;
     font-size: clamp(2.1rem, 5.6vw, 3.3rem);
-    white-space: nowrap; /* 어떤 일이 있어도 아래 줄로 떨어지지 않게 강제합니다. */
-    overflow: hidden;    /* 혹시나 영역을 벗어나면 깨지는 대신 깔끔하게 자릅니다. */
-    text-overflow: ellipsis;
-    word-break: keep-all;
     color: #f1ebd9;
     text-align: center;
     margin: 15px auto;
