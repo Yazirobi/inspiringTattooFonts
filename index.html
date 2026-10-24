@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Cherish&family=Dancing+Script:wght@400..700&family=Euphoria+Script&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Italianno&family=Marck+Script&family=Mr+Dafoe&family=Niconne&family=Pacifico&family=Parisienne&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Sacramento&family=Satisfy&family=Tangerine:wght@400;700&family=Yellowtail&family=Yesteryear&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Inspiring Tattoo Idea : Birth Flower & Name</title>
+</head>
+<body>
+    
+    <!--HEADER-->
+    <header class="hero-section" id="home">
+        <h1>Inspiring Tattoo Idea</h1>
+        <p class="hooking">A combination of a loved one's name and birth flower.<br>Map out a unique tattoo in the most beautiful cursive script.</p>
+        <div class="selectSection">    
+            <div class="search-box">
+                <select id="monthSelect"></select>
+                <button onclick="scrollToFlower()">View</button>
+            </div>
+        </div>
+    </header>
+
+    <!--MONTH01-->
+    <section class="flower-section" id="month01" data-flower-en="Daffodil">
+        <div class="flower-month">January</div>
+        <div class="flower-name">Daffodil</div>
+        <div class="image-container" data-gallery="images/month01/sub01.jpg, images/month01/sub02.jpg, images/month01/sub03.jpg, images/month01/sub04.jpg, images/month01/sub05.jpg, images/month01/sub06.jpg" alt="Daffodil">
+            <img src="images/month01/main.jpg" alt="Daffodil">
+            <div class="flower-description">
+                <div class="flower-meaning">Self-love, Pride</div>
+                <div class="flower-text">As the first to announce spring after enduring winter, the daffodil symbolizes nobility and a deep, mysterious inner charm.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month01')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month01')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month01')"></select>                
+                </div>
+                <div class="tattoo-preview-box active">
+                    <span class="preview-dob-text">JANUARY&middot;DAFFODIL</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH02-->
+    <section class="flower-section" id="month02" data-flower-en="Anemone">
+        <div class="flower-month">February</div>
+        <div class="flower-name">Anemone</div>
+        <div class="image-container" data-gallery="images/month02/sub01.jpg, images/month02/sub02.jpg, images/month02/sub03.jpg, images/month02/sub04.jpg, images/month02/sub05.jpg, images/month02/sub06.jpg" alt="Anemone">
+            <img src="images/month02/main.jpg" alt="Anemone">
+            <div class="flower-description">
+                <div class="flower-meaning">Anticipation, Waiting</div>
+                <div class="flower-text">Blooming with the wind, the anemone represents delicate emotions and a profound, heartfelt love.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month02')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month02')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month02')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">FEBRUARY&middot;ANEMONE</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH03-->
+    <section class="flower-section" id="month03" data-flower-en="Tulip">
+        <div class="flower-month">March</div>
+        <div class="flower-name">Tulip</div>
+        <div class="image-container" data-gallery="images/month03/sub01.jpg, images/month03/sub02.jpg, images/month03/sub03.jpg, images/month03/sub04.jpg, images/month03/sub05.jpg, images/month03/sub06.jpg" alt="Tulip">
+            <img src="images/month03/main.jpg" alt="Tulip">
+            <div class="flower-description">
+                <div class="flower-meaning">Declaration of love, Eternal affection</div>
+                <div class="flower-text">Signaling the start of warm spring, the tulip brings a bright, uplifting energy with its elegant and diverse colors.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month03')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month03')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month03')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">MARCH&middot;TULIP</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH04-->
+    <section class="flower-section" id="month04" data-flower-en="Delphinium">
+        <div class="flower-month">April</div>
+        <div class="flower-name">Delphinium</div>
+        <div class="image-container" data-gallery="images/month04/sub01.jpg, images/month04/sub02.jpg, images/month04/sub03.jpg, images/month04/sub04.jpg, images/month04/sub05.jpg, images/month04/sub06.jpg" alt="Delphinium">
+            <img src="images/month04/main.jpg" alt="Delphinium">
+            <div class="flower-description">
+                <div class="flower-meaning">I will make you happy</div>
+                <div class="flower-text">Resembling the clear blue sky, the delphinium signifies positive thought and a warm, comforting nature.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month04')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month04')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month04')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">APRIL&middot;DELPHINIUM</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH05-->
+    <section class="flower-section" id="month05" data-flower-en="Rose">
+        <div class="flower-month">May</div>
+        <div class="flower-name">Rose</div>
+        <div class="image-container" data-gallery="images/month05/sub01.jpg, images/month05/sub02.jpg, images/month05/sub03.jpg, images/month05/sub04.jpg, images/month05/sub05.jpg, images/month05/sub06.jpg" alt="Rose">
+            <img src="images/month05/main.jpg" alt="Rose">
+            <div class="flower-description">
+                <div class="flower-meaning">Passionate love</div>
+                <div class="flower-text">The ultimate symbol of beauty, the rose represents a passionate and honest charm.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month05')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month05')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month05')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">MAY&middot;ROSE</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH06-->
+    <section class="flower-section" id="month06" data-flower-en="Gerbera">
+        <div class="flower-month">June</div>
+        <div class="flower-name">Gerbera</div>
+        <div class="image-container" data-gallery="images/month06/sub01.jpg, images/month06/sub02.jpg, images/month06/sub03.jpg, images/month06/sub04.jpg, images/month06/sub05.jpg, images/month06/sub06.jpg" alt="Gerbera">
+            <img src="images/month06/main.jpg" alt="Gerbera">
+            <div class="flower-description">
+                <div class="flower-meaning">Mystery, Riddle</div>
+                <div class="flower-text">Characterized by a bright, pure, and vibrant presence that stands out with unique clarity.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month06')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month06')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month06')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">JUNE&middot;GERBERA</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH07-->
+    <section class="flower-section" id="month07" data-flower-en="Lavender">
+        <div class="flower-month">July</div>
+        <div class="flower-name">Lavender</div>
+        <div class="image-container" data-gallery="images/month07/sub01.jpg, images/month07/sub02.jpg, images/month07/sub03.jpg, images/month07/sub04.jpg, images/month07/sub05.jpg, images/month07/sub06.jpg" alt="Lavender">
+            <img src="images/month07/main.jpg" alt="Lavender">
+            <div class="flower-description">
+                <div class="flower-meaning">Faithfulness, Anticipation</div>
+                <div class="flower-text">Evoking the soothing essence of its gentle fragrance, this flower embodies a calm and healing charm.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month07')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month07')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month07')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">JULY&middot;LAVENDER</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH08-->
+    <section class="flower-section" id="month08" data-flower-en="Sunflower">
+        <div class="flower-month">August</div>
+        <div class="flower-name">Sunflower</div>
+        <div class="image-container" data-gallery="images/month08/sub01.jpg, images/month08/sub02.jpg, images/month08/sub03.jpg, images/month08/sub04.jpg, images/month08/sub05.jpg, images/month08/sub06.jpg" alt="Sunflower">
+            <img src="images/month08/main.jpg" alt="Sunflower">
+            <div class="flower-description">
+                <div class="flower-meaning">Pride, Devotion</div>
+                <div class="flower-text">Constantly facing the sun, the sunflower reflects a vibrant, loyal, and trustworthy character.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month08')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month08')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month08')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">AUGUST&middot;SUNFLOWER</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH09-->
+    <section class="flower-section" id="month09" data-flower-en="Dahlia">
+        <div class="flower-month">September</div>
+        <div class="flower-name">Dahlia</div>
+        <div class="image-container" data-gallery="images/month09/sub01.jpg, images/month09/sub02.jpg, images/month09/sub03.jpg, images/month09/sub04.jpg, images/month09/sub05.jpg, images/month09/sub06.jpg" alt="Dahlia">
+            <img src="images/month09/main.jpg" alt="Dahlia">
+            <div class="flower-description">
+                <div class="flower-meaning">Elegance, Gratitude</div>
+                <div class="flower-text">Like the graceful and full-blooming dahlia, this flower signifies a rich and abundant emotional depth.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month09')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month09')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month09')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">SEPTEMBER&middot;DAHLIA</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH10-->
+    <section class="flower-section" id="month10" data-flower-en="Chrysanthemum">
+        <div class="flower-month">October</div>
+        <div class="flower-name">Chrysanthemum</div>
+        <div class="image-container"
+            data-gallery="images/month10/sub01.jpg, images/month10/sub02.jpg, images/month10/sub03.jpg, images/month10/sub04.jpg, images/month10/sub05.jpg, images/month10/sub06.jpg" alt="Chrysanthemum">
+            <img src="images/month10/main.jpg" alt="Chrysanthemum">
+            <div class="flower-description">
+                <div class="flower-meaning">Purity, Nobility</div>
+                <div class="flower-text">Capturing the essence of autumn, the chrysanthemum symbolizes a wise, refined, and deep nature.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month10')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month10')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month10')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">OCTOBER&middot;CHRYSANTHEMUM</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section> 
+
+    <!--MONTH11-->
+    <section class="flower-section" id="month11" data-flower-en="Bellflower">
+        <div class="flower-month">November</div>
+        <div class="flower-name">Bellflower</div>
+        <div class="image-container" data-gallery="images/month11/sub01.jpg, images/month11/sub02.jpg, images/month11/sub03.jpg, images/month11/sub04.jpg, images/month11/sub05.jpg, images/month11/sub06.jpg" alt="Bellflower">
+            <img src="images/month11/main.jpg" alt="Bellflower">
+            <div class="flower-description">
+                <div class="flower-meaning">Honesty, Gratitude</div>
+                <div class="flower-text">Shining with a quiet brilliance, the bellflower embodies a truthful, dedicated, and sincere character.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month11')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month11')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month11')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">NOVEMBER&middot;BELLFLOWER</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote" href="#quote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--MONTH12-->
+    <section class="flower-section" id="month12" data-flower-en="Poinsettia">
+        <div class="flower-month">December</div>
+        <div class="flower-name">Poinsettia</div>
+        <div class="image-container" data-gallery="images/month12/sub01.jpg, images/month12/sub02.jpg, images/month12/sub03.jpg, images/month12/sub04.jpg, images/month12/sub05.jpg, images/month12/sub06.jpg" alt="Poinsettia">
+            <img src="images/month12/main.jpg" alt="Poinsettia">
+            <div class="flower-description">
+                <div class="flower-meaning">Blessing, Happiness</div>
+                <div class="flower-text">Bringing festive joy in the dead of winter, the poinsettia is a passionate flower that fills the space with warmth.</div>
+                <div class="click-hint">Click to view gallery / Scroll down to design tattoo.</div>
+            </div>
+        </div>
+        <div class="tattoo-widget">
+            <form class="frmQuote">
+                <h3>Tattoo Design Simulator</h3>
+                <div class="input-group">
+                    <input type="text" class="tattoo-dob-input" placeholder="Date Of Birth" oninput="updateTattooPreview('month12')">
+                    <input type="text" class="tattoo-name-input" placeholder="Full Name" oninput="updateTattooPreview('month12')">
+                    <select class="tattoo-font-select" onchange="updateTattooPreview('month12')"></select>                
+                </div>
+                <div class="tattoo-preview-box">
+                    <span class="preview-dob-text">DECEMBER&middot;POINSETTIA</span>
+                    <span class="preview-name-text">John Doe</span>
+                </div>
+                <button type="submit" class="btnQuote">Ask Your Tattooist</button>
+            </form>
+        </div>
+    </section>
+
+    <!--GET A QUOTE-->
+    <section class="hero-section" id="quote">
+        <h1>Get A Quote Today</h1>
+        <p class="hooking">Inspired? Please fill the form and get in touch, so we can make it!</p>
+        <div class="selectSection">
+            <form class="frmTattoo" id="frmTattoo">
+                <div class="form-row">
+                    <label for="frmName">Full Name</label>
+                    <input type="text" id="frmName" class="tattoo-name-input" placeholder="Enter Full Name" required />
+                </div>
+                <div class="form-row">
+                    <label for="frmDob">Date of Birth</label>
+                    <input type="date" id="frmDob" class="tattoo-dob-input"/>
+                </div>
+                <div class="form-row">
+                    <label for="frmPhone">Phone</label>
+                    <input type="tel" id="frmPhone" placeholder="010-0000-0000"/>
+                </div>
+                <div class="form-row">
+                    <label for="frmEmail">Email</label>
+                    <input type="email" id="frmEmail" placeholder="example@email.com" required />
+                </div>
+                <div class="form-row">
+                    <label>Add Flower?</label>
+                    <div class="radio-box-wrapper">
+                        <label class="radio-container"><input type="radio" name="frmWhetherFlower" value="wanted" checked /> Yes</label>
+                        <label class="radio-container"><input type="radio" name="frmWhetherFlower" value="unwanted" /> No</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="frmComment">Details</label>
+                    <textarea id="frmComment" placeholder="Please let us know details about your tattoo."></textarea>
+                </div>
+                <button type="submit" class="btnQuote" id="btnSubmit">Get a Quote</button>
+            </form>
+        </div>
+    </section>
+
+    <!--BACK TO TOP-->
+    <button type="button" id="scrollTopBtn" class="back-to-top">TOP</button>
+
+    <!--IMAGE MODAL-->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!--FOOTER-->
+    <footer class="simple-footer">
+        <div class="footer-container">
+            <h2 class="footer-logo">dashigink</h2>
+            <p class="footer-copyright">&copy; 2026 dashigink. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
