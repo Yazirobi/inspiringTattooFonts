@@ -278,7 +278,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
     padding: 15px;
     color: #fff;
     position: relative;
@@ -286,6 +288,7 @@ body {
     transition: 
         background 0.6s cubic-bezier(0.25, 1, 0.5, 1),
         box-shadow 0.6s ease;
+    -webkit-overflow-scrolling: touch;
     }
 
 .tattoo-preview-box::before {
@@ -330,6 +333,7 @@ body {
     font-family: inherit;
     letter-spacing: 0.05rem;
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+    word-break: keep-all;
     color: #8fa89b;
     margin-bottom: 10px;
     opacity: 0.8;
