@@ -356,6 +356,7 @@ body {
 .preview-name-text {
     font-family: "robotoFlex", sans-serif;
     font-size: clamp(1.5rem, 1.016rem + 2.066vw, 2.875rem);
+    word-break: keep-all;
     color: #f1ebd9;
     text-align: center;
     line-height: 1.2;
