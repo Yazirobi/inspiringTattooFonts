@@ -326,23 +326,12 @@ body {
     color: #2c4a3e;
     }   
 
-.preview-flower-text {
-    font-family: inherit;
-    letter-spacing: 0.05rem;
-    font-size: clamp(0.9rem, 0.85rem + 0.2vw, 1.1rem);
-    word-break: keep-all;
-    color: #8fa89b;
-    text-align: center;
-    margin-bottom: 10px;
-    opacity: 0.8;
-    }
-
 .preview-dob-text {
     font-family: "Times New Roman", Times, serif;
     letter-spacing: 0.1rem;
     margin-right: -0.5em;
     line-height: 1.7;
-    font-size: clamp(0.35rem, 0.6rem + 0.12vw, 0.6rem);
+    font-size: clamp(0.35rem, 0.13rem + 0.96vw, 1rem);
     color: #8fa89b;
     margin-bottom: 10px;
     opacity: 0.8;
