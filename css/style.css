@@ -329,12 +329,13 @@ body {
     }   
 
 .preview-dob-text {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", serif;
     letter-spacing: 0.567em;
+    max-width: 189px;
     padding: 0 10px;
     margin-right: -0.5em; 
-    line-height: 1.7;
-    font-size: clamp(0.5rem, 0.95vw, 1rem);
+    line-height: 2;
+    font-size: clamp(0.7rem, 0.9vw, 1.2rem);
     color: #8fa89b;
     margin-bottom: 10px;
     opacity: 0.8;
@@ -345,6 +346,10 @@ body {
 .preview-name-text {
     font-family: "robotoFlex", sans-serif;
     font-size: clamp(2.1rem, 5.6vw, 3.3rem);
+    word-spacing: -0.05em;
+    white-space: nowrap; /* 어떤 일이 있어도 아래 줄로 떨어지지 않게 강제합니다. */
+    overflow: hidden;    /* 혹시나 영역을 벗어나면 깨지는 대신 깔끔하게 자릅니다. */
+    text-overflow: ellipsis;
     word-break: keep-all;
     color: #f1ebd9;
     text-align: center;
