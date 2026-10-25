@@ -331,9 +331,8 @@ body {
 .preview-dob-text {
     font-family: "Times New Roman", serif;
     letter-spacing: 0.567em;
-    max-width: 189px;
+    max-width: 90%;
     padding: 0 10px;
-    margin-right: -0.5em; 
     line-height: 2;
     font-size: clamp(0.7rem, 0.9vw, 1.2rem);
     color: #8fa89b;
